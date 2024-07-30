@@ -29,8 +29,6 @@ jobs:
             python -m pip install flake8 pytest
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-        - name: Lint with flake8
-          #건너뜀
 
         - name: Run Python script #파이썬 코드 실행
           run: |
